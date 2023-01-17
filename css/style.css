@@ -31,17 +31,20 @@ body {
 .white-bg {
     margin: 60px 200px ;
     background-color: white;
-    border-radius: 2%;
+    border-radius: 1%;
 }
 
 
 .buttons {
+    display: inline-block;
     padding: 5px 15px;
-    margin: 10px 5px;
+    margin: 10px 20px;
+    border-radius: 15px
 }
 
 
-.new-task {
+.checkmark1 {
+    display: block;
     margin-bottom: 10px;
 }
 
@@ -53,9 +56,11 @@ body {
 
 .checkmark2::before {
     content: "\2713";
+    color: rgb(0, 255, 51);
 }
 
 
 .crossmark::before {
     content: "\2717";
+    color: red;
 }
