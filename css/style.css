@@ -12,6 +12,7 @@ body {
 
 .logo-header {
     padding: 15px 25px;
+    background-color: white;
 }
 
 
@@ -24,6 +25,13 @@ body {
 #logo-text {
     font-size: 70px;
     vertical-align: middle;
+}
+
+
+.white-bg {
+    margin: 60px 200px ;
+    background-color: white;
+    border-radius: 10%;
 }
 
 
