@@ -28,18 +28,26 @@ body {
 }
 
 
-.white-bg {
+main {
     margin: 60px 200px ;
     background-color: white;
     border-radius: 1%;
-}
 
 
 .buttons {
     display: inline-block;
     padding: 5px 15px;
+    border-radius: 5px;
+}
+
+#button-blue {
     margin: 10px 20px;
-    border-radius: 15px
+    background-color: rgb(0, 140, 255);
+    border-style: hidden;
+}
+
+#button-white {
+    border-color: grey;
 }
 
 
@@ -57,10 +65,48 @@ body {
 .checkmark2::before {
     content: "\2713";
     color: rgb(0, 255, 51);
+    display: inline-block;
+    padding: 3px 3px;
+    border-style: solid;
+    border-radius: 50%;
 }
 
 
 .crossmark::before {
+    display: inline-block;
+    padding: 1px;
+    border-style: solid;
+    border-radius: 50%;
     content: "\2717";
     color: red;
+    font-size: 10px;
+}
+
+
+.tag {
+    font-size: 10px;
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 15px;
+    border-style: hidden;
+    color: white;;
+}
+
+#editorial {
+    background-color: rgb(0, 140, 255);
+}
+#q1 {
+    background-color: rgb(200, 3, 254);
+}
+#recruiting {
+    background-color: rgb(0, 255, 213);
+}
+#mobile {
+    background-color: rgb(255, 153, 0);
+}
+#website {
+    background-color: rgb(255, 0, 251);
+}
+#sales {
+    background-color: yellowgreen;
 }
