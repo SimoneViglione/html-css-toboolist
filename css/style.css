@@ -5,3 +5,18 @@
 }
 
 
+.logo-header {
+    padding: 15px 25px;
+}
+
+
+#logo-img {
+    height: 80px;
+    vertical-align: middle;
+}
+
+
+#logo-text {
+    font-size: 70px;
+    vertical-align: middle;
+}
