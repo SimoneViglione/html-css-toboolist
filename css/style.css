@@ -61,6 +61,11 @@ body {
 }
 
 
+.new-task {
+    margin: 5px 0px;
+}
+
+
 .checkmark1 {
     font-size: 12px;
 }
